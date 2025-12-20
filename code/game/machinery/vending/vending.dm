@@ -967,10 +967,10 @@ GLOBAL_LIST_EMPTY_TYPED(total_vending_machines, /obj/structure/machinery/vending
 
 /obj/structure/machinery/vending/proc/get_wire_descriptions()
 	return list(
-		VENDING_WIRE_EXTEND = "Inventory control computer",
-		VENDING_WIRE_IDSCAN = "ID scanner",
-		VENDING_WIRE_SHOCK  = "Ground safety",
-		VENDING_WIRE_SHOOT_INV = "Dispenser motor control"
+		"Inventory control computer", // VENDING_WIRE_EXTEND
+		"ID scanner", // VENDING_WIRE_IDSCAN
+		"Ground safety", // VENDING_WIRE_SHOCK
+		"Dispenser motor control" // VENDING_WIRE_SHOOT_INV
 	)
 
 /obj/structure/machinery/vending/proc/isWireCut(wire)
