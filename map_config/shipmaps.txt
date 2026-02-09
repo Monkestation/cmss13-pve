@@ -21,7 +21,6 @@ map firefly
 endmap
 
 map golden_arrow
-	default
 endmap
 
 map chapaev
@@ -40,4 +39,8 @@ map uscss_onyx_karain
 endmap
 
 map hms_brynhild
+endmap
+
+map golden_arrow_dragmeme
+	default
 endmap
