@@ -255,7 +255,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 	var/auto_observe = TRUE
 
 	/// Name for platoon used when spawning as LT
-	var/platoon_name = "Sun Riders"
+	var/platoon_name = "Lunar Reapers"
 	/// Dropship camo used when spawning as LT
 	var/dropship_camo = DROPSHIP_CAMO_JUNGLE
 	/// Dropship name used when spawning as LT
