@@ -893,11 +893,6 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 4;
-	pixel_y = 19;
-	pixel_x = -15
-	},
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
@@ -4865,26 +4860,10 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/briefing)
 "arj" = (
-/obj/structure/prop/invuln/overhead{
-	dir = 10;
-	pixel_y = 11;
-	pixel_x = -18;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
-	},
-/obj/structure/prop/invuln/overhead{
-	dir = 6;
-	pixel_y = 11;
-	pixel_x = 13;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
-	},
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/bed/bedroll,
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/mask,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/platoonprep)
 "arl" = (
@@ -8400,7 +8379,7 @@
 	pixel_x = 8;
 	pixel_y = 10
 	},
-/turf/open/space/basic,
+/turf/open/floor/almayer/plate,
 /area/golden_arrow/cryo_cells)
 "aEe" = (
 /obj/effect/decal/warning_stripes{
@@ -8763,7 +8742,7 @@
 /obj/structure/sign/banners/united_americas_flag{
 	pixel_y = 30
 	},
-/turf/open/space/basic,
+/turf/open/floor/almayer/plate,
 /area/golden_arrow/cryo_cells)
 "aFr" = (
 /obj/effect/decal/warning_stripes{
@@ -10455,20 +10434,10 @@
 /turf/open/floor/almayer/mono,
 /area/golden_arrow/motor_pool)
 "aLw" = (
-/obj/structure/prop/invuln{
-	icon = 'icons/obj/structures/structures.dmi';
-	icon_state = "ladder11";
-	pixel_y = 10;
-	desc = "A sturdy metal ladder.";
-	name = "ladder";
-	density = 0
-	},
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/sign/safety/ladder{
-	pixel_x = -17
-	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/helmet,
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/platoonprep)
 "aLy" = (
@@ -11710,27 +11679,12 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/obj/structure/prop/invuln/overhead{
-	icon_state = "flammable_pipe_2";
-	pixel_y = 32;
-	pixel_x = 13;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
-	},
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/sign/safety/waterhazard{
-	pixel_y = 27
-	},
-/obj/structure/prop/invuln/overhead{
-	icon_state = "flammable_pipe_2";
-	pixel_y = 11;
-	pixel_x = 13;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/uniform,
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 1
 	},
 /turf/open/floor/almayer/edge/smooth/west,
 /area/golden_arrow/platoonprep)
@@ -13147,37 +13101,6 @@
 	icon_state = "NW-out";
 	pixel_y = 1
 	},
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 4;
-	pixel_y = 19;
-	pixel_x = 16
-	},
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 4;
-	pixel_y = 19;
-	pixel_x = -15
-	},
-/obj/structure/prop/invuln/pipe_water{
-	dir = 4;
-	pixel_y = 7
-	},
-/obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.5;
-	pixel_y = 10
-	},
-/obj/item/reagent_container/glass/bucket/janibucket{
-	pixel_y = -11;
-	pixel_x = -2
-	},
-/obj/structure/prop/invuln/overhead{
-	icon_state = "flammable_pipe_2";
-	pixel_y = 11;
-	pixel_x = 13;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
-	},
 /turf/open/floor/almayer/edge/smooth/corner/west,
 /area/golden_arrow/platoonprep)
 "aVQ" = (
@@ -13283,21 +13206,7 @@
 /turf/open/floor/almayer/edge/smooth/endcap_left/east,
 /area/golden_arrow/briefing)
 "aWc" = (
-/obj/structure/surface/table/almayer,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.01;
-	pixel_y = 13
-	},
-/obj/item/clothing/accessory/paint/usflag{
-	pixel_x = 10;
-	pixel_y = 10
-	},
-/obj/item/clothing/accessory/paint/alcoholism,
-/obj/item/clothing/accessory/paint/heart{
-	pixel_x = -9;
-	pixel_y = 8
-	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/suit,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "aWh" = (
@@ -15611,22 +15520,20 @@
 /turf/open/floor/almayer/edge/west,
 /area/golden_arrow/lower_cargo)
 "eZR" = (
-/obj/structure/surface/table/almayer,
-/obj/structure/barricade/handrail,
-/obj/item/clothing/accessory/paint/fire{
-	pixel_x = 1;
-	pixel_y = 13
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
 	},
-/obj/item/clothing/accessory/paint/cross{
-	pixel_x = -8;
-	pixel_y = 9
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
 	},
-/obj/item/clothing/accessory/paint/uaflag{
-	pixel_x = -2;
-	pixel_y = -2
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/prep_hallway)
 "fbw" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/cargo_shuttle/lower)
@@ -17164,18 +17071,10 @@
 /turf/open/floor/almayer/plating/northeast,
 /area/golden_arrow/engineering)
 "kjW" = (
-/obj/structure/prop/invuln/overhead{
-	dir = 5;
-	pixel_x = 13;
-	pixel_y = 11;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
-	},
-/obj/structure/machinery/portable_atmospherics/canister,
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/platoonprep)
 "knD" = (
@@ -17668,33 +17567,8 @@
 /turf/open/floor/almayer/edge/east,
 /area/golden_arrow/hangar)
 "lPj" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/surface/table/almayer,
-/obj/item/facepaint/green{
-	pixel_y = 12;
-	pixel_x = 2
-	},
-/obj/item/facepaint/black{
-	pixel_x = -7;
-	pixel_y = 7
-	},
-/obj/item/facepaint/brown{
-	pixel_x = -2;
-	pixel_y = 1
-	},
-/obj/item/facepaint/skull{
-	pixel_x = 10;
-	pixel_y = 2
-	},
-/obj/structure/machinery/camera/autoname/golden_arrow{
-	dir = 4
-	},
-/obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 8
-	},
-/turf/open/floor/almayer/plate,
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/shoes,
+/turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "lPm" = (
 /obj/effect/decal/cleanable/dirt{
@@ -18295,14 +18169,6 @@
 	},
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
-	},
-/obj/structure/prop/invuln/overhead{
-	icon_state = "flammable_pipe_2";
-	pixel_y = 11;
-	pixel_x = 13;
-	name = "dense fuel line";
-	desc = "Likely to be incredibly flammable.";
-	density = 0
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/platoonprep)
@@ -20236,6 +20102,12 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/golden_arrow/supply)
+"sJJ" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer/plate,
+/area/golden_arrow/platoonprep)
 "sMo" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -21188,6 +21060,12 @@
 	},
 /turf/open/floor/almayer/edge/west,
 /area/golden_arrow/lower_cargo)
+"wuP" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1
+	},
+/turf/open/floor/almayer/edge/north,
+/area/golden_arrow/prep_hallway)
 "wuZ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -25465,8 +25343,8 @@ avH
 aVc
 aog
 aGx
-aKL
-awW
+wuP
+eZR
 aeA
 oIf
 aCE
@@ -27751,8 +27629,8 @@ aEG
 aEG
 aEG
 aEG
-aEG
-aEG
+aDQ
+aDQ
 aWh
 aEd
 aVO
@@ -27929,7 +27807,7 @@ aEG
 aEG
 aDQ
 aDQ
-aDQ
+sJJ
 aWh
 aWh
 aWh
@@ -28459,10 +28337,10 @@ vLe
 ayn
 ayn
 ahl
-aDQ
-aDQ
-aDQ
-aDQ
+aWc
+pON
+pON
+lPj
 aWh
 aEY
 aTG
@@ -28637,9 +28515,9 @@ afz
 aum
 aYm
 oIL
-aWc
-lPj
-eZR
+pON
+pON
+aDQ
 aWh
 aog
 aog
