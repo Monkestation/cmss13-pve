@@ -447,8 +447,8 @@
 
 /obj/structure/machinery/autolathe/proc/get_wire_descriptions()
 	return list(
-		AUTOLATHE_WIRE_HACK = "Item template controller",
-		AUTOLATHE_WIRE_SHOCK = "Ground safety"
+		"Item template controller", // AUTOLATHE_WIRE_HACK
+		"Ground safety" // AUTOLATHE_WIRE_SHOCK
 	)
 
 /obj/structure/machinery/autolathe/proc/isWireCut(wire)

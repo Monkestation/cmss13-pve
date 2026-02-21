@@ -2,28 +2,28 @@
 
 //GLOBAL HUD LIST
 GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, list(
-	MOB_HUD_SECURITY_BASIC = new /datum/mob_hud/security/basic(),
-	MOB_HUD_SECURITY_ADVANCED = new /datum/mob_hud/security/advanced(),
-	MOB_HUD_MEDICAL_BASIC = new /datum/mob_hud/medical/basic(),
-	MOB_HUD_MEDICAL_ADVANCED = new /datum/mob_hud/medical/advanced(),
-	MOB_HUD_MEDICAL_OBSERVER = new /datum/mob_hud/medical/observer(),
-	MOB_HUD_XENO_INFECTION = new /datum/mob_hud/xeno_infection(),
-	MOB_HUD_XENO_STATUS = new /datum/mob_hud/xeno(),
-	MOB_HUD_XENO_HOSTILE = new /datum/mob_hud/xeno_hostile(),
-	MOB_HUD_FACTION_MARINE = new /datum/mob_hud/faction(),
-	MOB_HUD_FACTION_OBSERVER = new /datum/mob_hud/faction/observer(),
-	MOB_HUD_FACTION_ARMY = new /datum/mob_hud/faction/army(),
-	MOB_HUD_FACTION_NAVY = new /datum/mob_hud/faction/navy(),
-	MOB_HUD_FACTION_UPP = new /datum/mob_hud/faction/upp(),
-	MOB_HUD_FACTION_WY = new /datum/mob_hud/faction/wy(),
-	MOB_HUD_FACTION_TWE = new /datum/mob_hud/faction/twe(),
-	MOB_HUD_FACTION_CLF = new /datum/mob_hud/faction/clf(),
-	MOB_HUD_FACTION_PMC = new /datum/mob_hud/faction/pmc(),
-	MOB_HUD_FACTION_MARSHAL = new /datum/mob_hud/faction/cmb(),
-	MOB_HUD_FACTION_UACG = new /datum/mob_hud/faction/guard(),
-	MOB_HUD_HUNTER = new /datum/mob_hud/hunter_hud(),
-	MOB_HUD_HUNTER_CLAN = new /datum/mob_hud/hunter_clan(),
-	MOB_HUD_EXECUTE = new /datum/mob_hud/execute_hud(),
+	new /datum/mob_hud/security/basic(),		// MOB_HUD_SECURITY_BASIC
+	new /datum/mob_hud/security/advanced(),		// MOB_HUD_SECURITY_ADVANCED
+	new /datum/mob_hud/medical/basic(),			// MOB_HUD_MEDICAL_BASIC
+	new /datum/mob_hud/medical/advanced(),		// MOB_HUD_MEDICAL_ADVANCED
+	new /datum/mob_hud/medical/observer(),		// MOB_HUD_MEDICAL_OBSERVER
+	new /datum/mob_hud/xeno_infection(),		// MOB_HUD_XENO_INFECTION
+	new /datum/mob_hud/xeno(),					// MOB_HUD_XENO_STATUS
+	new /datum/mob_hud/xeno_hostile(),			// MOB_HUD_XENO_HOSTILE
+	new /datum/mob_hud/faction(),				// MOB_HUD_FACTION_MARINE
+	new /datum/mob_hud/faction/observer(),		// MOB_HUD_FACTION_OBSERVER
+	new /datum/mob_hud/faction/army(),			// MOB_HUD_FACTION_ARMY
+	new /datum/mob_hud/faction/navy(),			// MOB_HUD_FACTION_NAVY
+	new /datum/mob_hud/faction/upp(),			// MOB_HUD_FACTION_UPP
+	new /datum/mob_hud/faction/wy(),			// MOB_HUD_FACTION_WY
+	new /datum/mob_hud/faction/twe(),			// MOB_HUD_FACTION_TWE
+	new /datum/mob_hud/faction/clf(),			// MOB_HUD_FACTION_CLF
+	new /datum/mob_hud/faction/pmc(),			// MOB_HUD_FACTION_PMC
+	new /datum/mob_hud/faction/cmb(),			// MOB_HUD_FACTION_MARSHAL
+	new /datum/mob_hud/faction/guard(),			// MOB_HUD_FACTION_UACG
+	new /datum/mob_hud/hunter_hud(),			// MOB_HUD_HUNTER
+	new /datum/mob_hud/hunter_clan(),			// MOB_HUD_HUNTER_CLAN
+	new /datum/mob_hud/execute_hud(),			// MOB_HUD_EXECUTE
 	))
 
 /datum/mob_hud

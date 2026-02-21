@@ -398,9 +398,9 @@
 
 /obj/structure/machinery/smartfridge/proc/get_wire_descriptions()
 	return list(
-		FRIDGE_WIRE_SHOCK   = "Ground safety",
-		FRIDGE_WIRE_SHOOT_INV  = "Dispenser motor control",
-		FRIDGE_WIRE_IDSCAN  = "ID scanner"
+		"Ground safety", // FRIDGE_WIRE_SHOCK
+		"Dispenser motor control", // FRIDGE_WIRE_SHOOT_INV
+		"ID scanner" // FRIDGE_WIRE_IDSCAN
 	)
 
 /obj/structure/machinery/smartfridge/proc/cut(wire)
