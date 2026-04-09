@@ -3272,17 +3272,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"gx" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/closet/secure_closet/rmc_section_leader{
-	pixel_y = -15;
-	pixel_x = -8;
-	name = "section 2IC locker"
-	},
-/turf/open/floor/prison/bright_clean,
-/area/hms_brynhild/armoury)
 "gy" = (
 /turf/open/floor/almayer/empty/golden_arrow,
 /area/hms_brynhild/cargo_shuttle/upper)
@@ -5313,6 +5302,17 @@
 	},
 /turf/open/floor/elevatorshaft,
 /area/hms_brynhild/lower_hangar)
+"kB" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/closet/secure_closet/rmc_section_leader{
+	pixel_y = -15;
+	pixel_x = -8;
+	name = "section 2IC locker"
+	},
+/turf/open/floor/prison/bright_clean,
+/area/hms_brynhild/armoury)
 "kC" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -28129,7 +28129,7 @@ WY
 ZF
 sw
 gi
-gx
+kB
 sw
 sw
 sw
