@@ -2403,6 +2403,7 @@
 	icon_state = "mortarutility"
 	item_state = "s_mortarbelt"
 	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+	w_class = SIZE_HUGE
 	max_w_class = SIZE_HUGE
 	has_gamemode_skin = FALSE
 	holster_slots = list(
